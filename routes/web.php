@@ -6,6 +6,12 @@ Route::prefix('admin')
         ->group(function() {
 
     /**
+     * Routes Users
+     */
+    Route::any('users/search', 'UserController@search')->name('users.search');
+    Route::resource('users', 'UserController');
+
+    /**
      * Plan x Profile
      */
     Route::get('plans/{id}/profile/{idProfile}/detach', 'ACL\PlanProfileController@detachProfilePlan')->name('plans.profile.detach');
