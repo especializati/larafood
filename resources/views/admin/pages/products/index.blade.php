@@ -24,9 +24,9 @@
             <table class="table table-condensed">
                 <thead>
                     <tr>
-                        <th style="max-width: 90px;">Imagem</th>
+                        <th width="100">Imagem</th>
                         <th>Título</th>
-                        <th width="150">Ações</th>
+                        <th width="190">Ações</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -37,6 +37,7 @@
                             </td>
                             <td>{{ $product->title }}</td>
                             <td style="width=10px;">
+                                <a href="{{ route('products.categories', $product->id) }}" class="btn btn-warning" title="Categorias"><i class="fas fa-layer-group"></i></a>
                                 <a href="{{ route('products.edit', $product->id) }}" class="btn btn-info">Edit</a>
                                 <a href="{{ route('products.show', $product->id) }}" class="btn btn-warning">VER</a>
                             </td>
