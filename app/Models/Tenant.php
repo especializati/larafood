@@ -19,6 +19,6 @@ class Tenant extends Model
 
     public function plan()
     {
-        return $this->belongsTo(Tenant::class);
+        return $this->belongsTo(Plan::class);
     }
 }
