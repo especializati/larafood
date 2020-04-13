@@ -8,3 +8,6 @@ Route::get('/categories', 'Api\CategoryApiController@categoriesByTenant');
 
 Route::get('/tables/{identify}', 'Api\TableApiController@show');
 Route::get('/tables', 'Api\TableApiController@tablesByTenant');
+
+Route::get('/products/{flag}', 'Api\ProductApiController@show');
+Route::get('/products', 'Api\ProductApiController@productsByTenant');
