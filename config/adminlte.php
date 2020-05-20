@@ -31,7 +31,7 @@ return [
     */
 
     'logo' => '<b>Lara</b>Food',
-    'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
+    'logo_img' => 'imgs/larafood-icon.png',
     'logo_img_class' => 'brand-image-xl',
     'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs',

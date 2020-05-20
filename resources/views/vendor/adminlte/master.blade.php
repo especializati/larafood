@@ -23,6 +23,8 @@
     @else
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     @endif
+
+    <link rel="icon" type="image/png" href="{{ url('imgs/favicon.png') }}">
 </head>
 <body class="@yield('classes_body')" @yield('body_data')>
 
