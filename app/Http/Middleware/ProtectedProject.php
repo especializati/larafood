@@ -16,8 +16,10 @@ class ProtectedProject
      */
     public function handle(Request $request, Closure $next)
     {
-        return redirect()->away('https://www.especializati.com/curso-laravel-larafood');
+        if (app()->runningInConsole()) {
+            return $next($request);
+        }
 
-        return $next($request);
+        return redirect()->away('https://www.especializati.com/curso-laravel-larafood');
     }
 }
