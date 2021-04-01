@@ -25493,6 +25493,28 @@ module.exports = yeast;
 
 /***/ }),
 
+/***/ "./resources/css/custom-dash.css":
+/*!***************************************!*\
+  !*** ./resources/css/custom-dash.css ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./resources/css/site.css":
+/*!********************************!*\
+  !*** ./resources/css/site.css ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./resources/js/Echo.js":
 /*!******************************!*\
   !*** ./resources/js/Echo.js ***!
@@ -25722,26 +25744,16 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/sass/custom-admin.css":
-/*!*****************************************!*\
-  !*** ./resources/sass/custom-admin.css ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nValidationError: Invalid options object. Sass Loader has been initialized using an options object that does not match the API schema.\n - options has an unknown property 'outputStyle'. These properties are valid:\n   object { implementation?, sassOptions?, prependData?, sourceMap?, webpackImporter? }\n    at validate (C:\\laragon\\www\\larafood\\node_modules\\schema-utils\\dist\\validate.js:98:11)\n    at Object.loader (C:\\laragon\\www\\larafood\\node_modules\\sass-loader\\dist\\index.js:36:28)\n    at C:\\laragon\\www\\larafood\\node_modules\\webpack\\lib\\NormalModule.js:316:20\n    at C:\\laragon\\www\\larafood\\node_modules\\loader-runner\\lib\\LoaderRunner.js:367:11\n    at C:\\laragon\\www\\larafood\\node_modules\\loader-runner\\lib\\LoaderRunner.js:233:18\n    at runSyncOrAsync (C:\\laragon\\www\\larafood\\node_modules\\loader-runner\\lib\\LoaderRunner.js:143:3)\n    at iterateNormalLoaders (C:\\laragon\\www\\larafood\\node_modules\\loader-runner\\lib\\LoaderRunner.js:232:2)\n    at C:\\laragon\\www\\larafood\\node_modules\\loader-runner\\lib\\LoaderRunner.js:186:6\n    at runSyncOrAsync (C:\\laragon\\www\\larafood\\node_modules\\loader-runner\\lib\\LoaderRunner.js:130:11)\n    at C:\\laragon\\www\\larafood\\node_modules\\loader-runner\\lib\\LoaderRunner.js:178:3\n    at loadLoader (C:\\laragon\\www\\larafood\\node_modules\\loader-runner\\lib\\loadLoader.js:47:3)\n    at iteratePitchingLoaders (C:\\laragon\\www\\larafood\\node_modules\\loader-runner\\lib\\LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (C:\\laragon\\www\\larafood\\node_modules\\loader-runner\\lib\\LoaderRunner.js:165:10)\n    at C:\\laragon\\www\\larafood\\node_modules\\loader-runner\\lib\\LoaderRunner.js:176:18\n    at loadLoader (C:\\laragon\\www\\larafood\\node_modules\\loader-runner\\lib\\loadLoader.js:47:3)\n    at iteratePitchingLoaders (C:\\laragon\\www\\larafood\\node_modules\\loader-runner\\lib\\LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (C:\\laragon\\www\\larafood\\node_modules\\loader-runner\\lib\\LoaderRunner.js:165:10)\n    at C:\\laragon\\www\\larafood\\node_modules\\loader-runner\\lib\\LoaderRunner.js:176:18\n    at loadLoader (C:\\laragon\\www\\larafood\\node_modules\\loader-runner\\lib\\loadLoader.js:47:3)\n    at iteratePitchingLoaders (C:\\laragon\\www\\larafood\\node_modules\\loader-runner\\lib\\LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (C:\\laragon\\www\\larafood\\node_modules\\loader-runner\\lib\\LoaderRunner.js:165:10)\n    at C:\\laragon\\www\\larafood\\node_modules\\loader-runner\\lib\\LoaderRunner.js:176:18\n    at loadLoader (C:\\laragon\\www\\larafood\\node_modules\\loader-runner\\lib\\loadLoader.js:47:3)\n    at iteratePitchingLoaders (C:\\laragon\\www\\larafood\\node_modules\\loader-runner\\lib\\LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (C:\\laragon\\www\\larafood\\node_modules\\loader-runner\\lib\\LoaderRunner.js:165:10)\n    at C:\\laragon\\www\\larafood\\node_modules\\loader-runner\\lib\\LoaderRunner.js:176:18\n    at loadLoader (C:\\laragon\\www\\larafood\\node_modules\\loader-runner\\lib\\loadLoader.js:47:3)\n    at iteratePitchingLoaders (C:\\laragon\\www\\larafood\\node_modules\\loader-runner\\lib\\LoaderRunner.js:169:2)\n    at runLoaders (C:\\laragon\\www\\larafood\\node_modules\\loader-runner\\lib\\LoaderRunner.js:365:2)\n    at NormalModule.doBuild (C:\\laragon\\www\\larafood\\node_modules\\webpack\\lib\\NormalModule.js:295:3)\n    at NormalModule.build (C:\\laragon\\www\\larafood\\node_modules\\webpack\\lib\\NormalModule.js:446:15)\n    at Compilation.buildModule (C:\\laragon\\www\\larafood\\node_modules\\webpack\\lib\\Compilation.js:739:10)\n    at C:\\laragon\\www\\larafood\\node_modules\\webpack\\lib\\Compilation.js:1111:12\n    at C:\\laragon\\www\\larafood\\node_modules\\webpack\\lib\\NormalModuleFactory.js:409:6\n    at C:\\laragon\\www\\larafood\\node_modules\\webpack\\lib\\NormalModuleFactory.js:155:13\n    at AsyncSeriesWaterfallHook.eval [as callAsync] (eval at create (C:\\laragon\\www\\larafood\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at AsyncSeriesWaterfallHook.lazyCompileHook (C:\\laragon\\www\\larafood\\node_modules\\tapable\\lib\\Hook.js:154:20)\n    at C:\\laragon\\www\\larafood\\node_modules\\webpack\\lib\\NormalModuleFactory.js:138:29");
-
-/***/ }),
-
 /***/ 0:
-/*!*********************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/custom-admin.css ***!
-  \*********************************************************************/
+/*!********************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/css/custom-dash.css ./resources/css/site.css ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! C:\laragon\www\larafood\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\laragon\www\larafood\resources\sass\custom-admin.css */"./resources/sass/custom-admin.css");
+__webpack_require__(/*! C:\laragon\www\larafood\resources\css\custom-dash.css */"./resources/css/custom-dash.css");
+module.exports = __webpack_require__(/*! C:\laragon\www\larafood\resources\css\site.css */"./resources/css/site.css");
 
 
 /***/ }),

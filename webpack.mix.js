@@ -12,4 +12,5 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-   // .sass('resources/sass/custom-admin.css', 'public/css');
+    .postCss('resources/css/custom-dash.css', 'public/css', [])
+    .postCss('resources/css/site.css', 'public/css', []);

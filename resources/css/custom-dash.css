@@ -1,0 +1,142 @@
+body {
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+}
+
+[class*=sidebar-dark-] {
+    background-color: #191c25;
+}
+
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
+    background-color: #b63132;
+    color: #fff;
+}
+
+.navbar-white {
+    background-color: #191c25;
+}
+
+.main-header {
+    border-bottom: 1px solid #303542;
+    z-index: 1034;
+}
+
+.content-wrapper {
+    background: #14151b;
+}
+
+.card-header {
+    background-color: #191c25;
+}
+
+.card {
+    background-color: #1d212b;
+}
+
+.card-footer {
+    background-color: #191c25;
+}
+
+.form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+    margin-right: 2px;
+}
+
+.table td, .table th {
+    border-top: 1px solid #303542;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #191c25;
+}
+
+.card-body>.table>thead>tr>td, .card-body>.table>thead>tr>th {
+    border-top: none;
+}
+
+.info-box {
+    background: #1d212b;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FFF;
+}
+
+.form-control {
+    color: #FFF;
+    background-color: #282e3c;
+}
+
+[class*=sidebar-dark] .brand-link {
+    border-bottom: 1px solid #303542;
+    color: rgba(255,255,255,.8);
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #0f1013;
+    border-color: #2c2e3c;
+}
+
+.page-item.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #464f67;
+    border-color: #272c3a;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #ffffff;
+    background-color: #1d212b;
+    border: 1px solid #33394a;
+}
+
+.page-link:hover {
+    z-index: 2;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #191c25;
+    border-color: #33394a;
+}
+
+.login-page, .register-page {
+    background: #000000;
+}
+
+.login-logo a, .register-logo a {
+    color: #ffffff;
+}
+
+.login-logo a>b, .register-logo a>b {
+    color: #b63132;
+}
+
+.login-card-body .input-group .input-group-text, .register-card-body .input-group .input-group-text {
+    background-color: #21252f;
+}
+
+.login-card-body, .register-card-body {
+    background: #1d212b;
+    border-top: 0;
+    color: #fff;
+    padding: 20px;
+}
+
+.form-control:focus {
+    color: #fff;
+    background-color: #323a4c;
+    border-color: #007aff;
+}
