@@ -1,6 +1,6 @@
 # LaraFood
 
-[Curso Laravel LaraFood - O número 1 do Brasil](https://www.especializati.com.br/curso-laravel-larafood)
+[Curso LaravelFood - O número 1 do Brasil](https://academy.especializati.com.br/curso/laravel-food)
 
 ## Detalhes do Curso:
 
