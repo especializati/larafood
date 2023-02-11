@@ -1,4 +1,4 @@
-# LaraFood
+# LaravelFood
 
 [Curso LaravelFood - O número 1 do Brasil](https://academy.especializati.com.br/curso/laravel-food)
 
