@@ -20,6 +20,6 @@ class ProtectedProject
             return $next($request);
         }
 
-        return redirect()->away('https://www.especializati.com/curso-laravel-larafood');
+        return redirect()->away('https://academy.especializati.com.br');
     }
 }
